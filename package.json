@@ -1,0 +1,23 @@
+{
+  "name": "mockserver_api",
+  "version": "1.0.0",
+  "description": "mockserver_api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mockAPI": "node mocks/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xersuy/mockserver_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xersuy/mockserver_api/issues"
+  },
+  "homepage": "https://github.com/xersuy/mockserver_api#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
