@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "mockAPI": "node mocks/index.js"
+    "mockAPI": "node mocks/index.js add --portAPI=10001"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/xersuy/mockserver_api#readme",
   "devDependencies": {
     "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "mockserver": "^3.1.1"
   }
 }
