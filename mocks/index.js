@@ -4,7 +4,7 @@ const mockserver = require('mockserver');
 
 const argv = require('yargs').argv;
 const portAPI = argv.portAPI || 10002;
-const directory = argv.dir || 'mocks';
+const directory = argv.dir || './mocks';
 
 
 process.on('SIGINT', () => { console.log("Bye bye!"); process.exit(); });
