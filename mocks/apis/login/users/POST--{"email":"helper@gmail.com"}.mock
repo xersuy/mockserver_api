@@ -1,6 +1,8 @@
-HTTP/1.1 201 OK
+HTTP/1.1 422 OK
 access-control-allow-origin: *
 access-control-allow-methods: GET, POST, PUT, PATCH, DELETE
 access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
 
-201
+{
+  "error": "User doesn't exist or has already been activated"
+}
